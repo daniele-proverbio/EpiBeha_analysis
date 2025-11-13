@@ -7,10 +7,10 @@ This repository contains the code and material to reroduce the results of the pa
 The folders contain notebooks dedicated to each step of the analysis process, as decribed in the paper. For reproducibility, they should be run in the correct order, as they produce intermediate files that can be investigated for each step.
 
 ### FULL_DATA5_FINALE.csv
-This is the final constructed database, resulting from the construction procedure described in the article and summarised in its Fig. 1. It consists in an integration of multiple public datasets (which are listed in the original article, and should be referenced in case of re-use of this database), after applyinng careful selection criteria to ensure its consistency and representativeness. The code to obtain this file is contained in the "database_construction" folder.
+This is the **final constructed database**, resulting from the construction procedure described in the article and summarised in its Fig. 1. It consists in an integration of multiple public datasets (which are listed in the original article, and _should be referenced in case of re-use of this database_), after applyinng careful selection criteria to ensure its consistency and representativeness. The code to obtain this file is contained in the "database_construction" folder.
 
 ### "database_construction" 
-It contains the files used to construct the integrated database. The intermediate files obtained through the procedure can be generated with the code or can be shared upon reasonable request. 
+It contains the code used to construct the integrated database. The intermediate files obtained through the procedure can be generated with the code or can be shared upon reasonable request. 
 
 The external data are sometimes retrieved via APIs and sometimes come from existing CSV files available on relevant websites. The following links provide the CSV files needed for Phase 1:
 * owid-covid-data.csv https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv
@@ -19,7 +19,7 @@ The external data are sometimes retrieved via APIs and sometimes come from exist
 * covid-containment-and-health-index.csv https://ourworldindata.org/grapher/covid-containment-and-health-index
 * time_series_covid19_US.csv https://github.com/govex/COVID-19/tree/master/data_tables/testing_data
 
-* Note (for country.ipynb): The UMD Global CTIS API is currently inactive. However, it is possible to manually download the data from https://www.icpsr.umich.edu/web/ICPSR/studies/39206/versions/V3 .
+* Note (for country.ipynb): The UMD Global CTIS API is _currently inactive_. However, it is possible to manually download the data from https://www.icpsr.umich.edu/web/ICPSR/studies/39206/versions/V3 .
 
 All the CSV files must be placed in a dedicated "csv" folder for the scripts to function properly. During the execution of the scripts, additional CSV files will be generated and stored in the same folder. From country.ipynb and country-us.ipynb, two external tables will be generated (named Data and Dataus respectively). These contain CSV files with data retrieved via APIs.
 
