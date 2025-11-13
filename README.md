@@ -2,9 +2,12 @@
 
 This repository contains the code and material to reroduce the results of the paper "Drivers of protective behaviours during epidemics", for the analysis of epidemic-behavioural aspects during COVID-19.
 
-## Folders
+## Folders and files
 
 The folders contain notebooks dedicated to each step of the analysis process, as decribed in the paper. For reproducibility, they should be run in the correct order, as they produce intermediate files that can be investigated for each step.
+
+### FULL_DATA5_FINALE.csv
+This is the final constructed database, resulting from the construction procedure described in the article and summarised in its Fig. 1. It consists in an integration of multiple public datasets (which are listed in the original article, and should be referenced in case of re-use of this database), after applyinng careful selection criteria to ensure its consistency and representativeness. The code to obtain this file is contained in the "database_construction" folder.
 
 ### "database_construction" 
 It contains the files used to construct the integrated database. The intermediate files obtained through the procedure can be generated with the code or can be shared upon reasonable request. 
