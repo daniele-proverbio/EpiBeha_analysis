@@ -31,7 +31,10 @@ The notebooks correspond to the various steps described in Table 1 of the manusc
 * 5-facebookdata.ipynb: analyses Facebook coverage Worldwide
 * 6_coveragetest+CHI.ipynb: performs the analysis of epidemic indicators coverage, dynamics and statistics
 
-
+### Analysis
+Contains the code used for the analysis of the behavioural drivers:
+* correlations.ipynb: analysis of univariate correlations, Multilinear Regression and Granger causality. Generates figures for main text and SI.
+* randomforestregression.ipynb: code for Random Forest and value importance vector.
 
 ## Credits
 The code is adapted and refined from the one developed in https://github.com/scanta0705/Behaviours-and-contagion-during-the-COVID-19-pandemic-from-data-analysis-to-model-fitting/tree/main by Marie Scantamburlo.
