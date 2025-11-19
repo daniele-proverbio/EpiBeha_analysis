@@ -1,6 +1,6 @@
 # EpiBeha_analysis
 
-This repository contains the code and material to reroduce the results of the paper "Drivers of protective behaviours during epidemics", for the analysis of epidemic-behavioural aspects during COVID-19.
+This repository contains the code and material to reroduce the results of the paper "Drivers of protective behaviours during epidemics", for the analysis of epidemic-behavioural aspects during COVID-19. Note: to run the code, it may be necessary to update the folder dependencies in the code.
 
 ## Folders and files
 
