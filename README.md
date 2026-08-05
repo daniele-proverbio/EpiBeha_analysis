@@ -1,6 +1,7 @@
 # EpiBeha_analysis
 
-This repository contains the code and material to reroduce the results of the paper "Drivers of protective behaviours during epidemics", for the analysis of epidemic-behavioural aspects during COVID-19. Note: to run the code, it may be necessary to update the folder dependencies in the code.
+This repository contains the code and material to reroduce the results of the paper "Quantifying the drivers of protective behaviours in epidemics:
+Mask wearing during COVID-19", for the analysis of epidemic-behavioural aspects during COVID-19. Note: to run the code, it may be necessary to update the folder dependencies in the code.
 
 ## Folders and files
 
@@ -39,4 +40,5 @@ Contains the code used for the analysis of the behavioural drivers:
 ## Credits
 The code is adapted and refined from the one developed in https://github.com/scanta0705/Behaviours-and-contagion-during-the-COVID-19-pandemic-from-data-analysis-to-model-fitting/tree/main by Marie Scantamburlo.
 
-If you wish to reuse the code, please cite its companion article: Scantamburlo, Proverbio and Giordano, "Drivers of protective behaviours during epidemics", 2025
+If you wish to reuse the code, please cite its companion article: Scantamburlo, Proverbio and Giordano, "Quantifying the drivers of protective behaviours in epidemics: Mask wearing during COVID-19", 2025  
+medRxiv (old) version: https://www.medrxiv.org/content/10.1101/2025.11.26.25341041v1
