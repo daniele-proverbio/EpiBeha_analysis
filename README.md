@@ -14,11 +14,11 @@ This is the **final constructed database**, resulting from the construction proc
 It contains the code used to construct the integrated database. The intermediate files obtained through the procedure can be generated with the code or can be shared upon reasonable request. 
 
 The external data are sometimes retrieved via APIs and sometimes come from existing CSV files available on relevant websites. The following links provide the CSV files needed for Phase 1:
-* owid-covid-data.csv https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv
-* positive-rate-daily-smoothed.csv https://ourworldindata.org/grapher/positive-rate-daily-smoothed
-* face-covering-policies-covid.csv https://ourworldindata.org/grapher/face-covering-policies-covid
-* covid-containment-and-health-index.csv https://ourworldindata.org/grapher/covid-containment-and-health-index
-* time_series_covid19_US.csv https://github.com/govex/COVID-19/tree/master/data_tables/testing_data
+* `owid-covid-data.csv` https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv (to be downloaded and added to path, particularly to reproduce the Stringency Index analysis)
+* `positive-rate-daily-smoothed.csv` https://ourworldindata.org/grapher/positive-rate-daily-smoothed
+* `face-covering-policies-covid.csv` https://ourworldindata.org/grapher/face-covering-policies-covid (included as csv file for ease of reproducibility; cite the original source if you use it).
+* `covid-containment-and-health-index.csv` https://ourworldindata.org/grapher/covid-containment-and-health-index
+* `time_series_covid19_US.csv` https://github.com/govex/COVID-19/tree/master/data_tables/testing_data
 
 * Note (for country.ipynb): The UMD Global CTIS API is _currently inactive_. However, it is possible to manually download the data from https://www.icpsr.umich.edu/web/ICPSR/studies/39206/versions/V3 .
 
