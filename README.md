@@ -24,18 +24,18 @@ The external data are sometimes retrieved via APIs and sometimes come from exist
 
 All the CSV files must be placed in a dedicated "csv" folder for the scripts to function properly. During the execution of the scripts, additional CSV files will be generated and stored in the same folder. From country.ipynb and country-us.ipynb, two external tables will be generated (named Data and Dataus respectively). These contain CSV files with data retrieved via APIs.
 
-The notebooks correspond to the various steps described in Table 1 of the manuscript, and should be run as ordered in the folder:
+The **notebooks** correspond to the various steps described in Table 1 of the manuscript, and should be run as ordered in the folder:
 
-* 1-country.ipynb and 2-country-us.ipynb: they parse the UMD and US Delphi CTIS datasets and apply the temporal coverage and continuity criteria. Output: "us_mondo.csv" dataset with 90 countries.
-* 3-samplesize.ipynb: sample size consistency criterion. Generates figures used in Supplementary Sec. 2
-* 4-US_epidemiology.ipynb merges epidemic infos for US states with those about all the other countries
-* 5-facebookdata.ipynb: analyses Facebook coverage Worldwide
-* 6_coveragetest+CHI.ipynb: performs the analysis of epidemic indicators coverage, dynamics and statistics
+* `1-country.ipynb` and 2-country-us.ipynb: they parse the UMD and US Delphi CTIS datasets and apply the temporal coverage and continuity criteria. Output: "us_mondo.csv" dataset with 90 countries.
+* `3-samplesize.ipynb`: sample size consistency criterion. Generates figures used in Supplementary Sec. 2
+* `4-US_epidemiology.ipynb` merges epidemic infos for US states with those about all the other countries
+* `5-facebookdata.ipynb`: analyses Facebook coverage Worldwide
+* `6_coveragetest+CHI.ipynb`: performs the analysis of epidemic indicators coverage, dynamics and statistics
 
 ### Analysis
 Contains the code used for the analysis of the behavioural drivers:
-* correlations.ipynb: analysis of univariate correlations, Multilinear Regression and Granger causality. Generates figures for main text and SI.
-* randomforestregression.ipynb: code for Random Forest and value importance vector.
+* `correlations.ipynb`: analysis of univariate correlations, Multilinear Regression and Granger causality. Generates figures for main text and SI.
+* `randomforestregression.ipynb`: code for Random Forest fits, value importance vector and partial dependence plots. Generates figures for the main text and SI.
 
 ## Credits
 The code is adapted and refined from the one developed in https://github.com/scanta0705/Behaviours-and-contagion-during-the-COVID-19-pandemic-from-data-analysis-to-model-fitting/tree/main by Marie Scantamburlo.
